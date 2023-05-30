@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+   <title>ENCRIPTADOR</title>
+</head>
+<body>
+
+   <header>
+      <img class="logo" src="imagenes/Logo.png" alt="logo de alura" >
+   </header>
+
+<main>
+
+   <section class="seccion_1">
+
+      <textarea class="tex_area" cols="30" rows="10" placeholder="Ingrese el texto Aquí" ></textarea>
+
+      <div class="div_1">
+         <h6 class="informacion_cajatexto">
+            Solo letras minúsculas, sin asentos
+         </h6>
+      </div>
+
+      <div class="btn_encriptadores">
+         <button class="btn_encriptar" onclick="btnEncriptar()">
+            Encriptar
+         </button>
+
+         <button class="btn_desencriptar" onclick="btnDesencriptar()">
+            Desencriptar
+         </button>
+      </div>
+
+   </section>
+   
+   <section class="seccion_2">
+               
+      <textarea class="mensaje" cols="20" rows="10"></textarea>
+
+      <div>
+         <button class="copy_btn" onclick="copyTex()">
+            Copiar
+         </button>
+      </div>
+
+   </section>
+
+</main>
+
+<script src="script.js"></script>
+
+<footer>
+   <p class="copy_right">© Copyright Alexander Donado - 2023</p>
+</footer>
+
+
+
+</body>
+</html>
